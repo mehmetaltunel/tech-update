@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tech-update-5ff59": {
+      "hosting": {
+        "tech-update": [
+          "tech-update-5ff59"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tech-update-5ff59"
+  }
+}

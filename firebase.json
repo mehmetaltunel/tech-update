@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "tech-update",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

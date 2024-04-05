@@ -1,0 +1,7 @@
+<button (click)="addUser()">Kullanıcı Ekle</button>
+<div *ngFor="let user of users$ | async">
+  {{ user.name }} - {{ user.age }} - {{ user.city }}
+  <button (click)="deleteUser(user.id)">Sil</button>
+  <button (click)="updateUser(user.id)">Güncelle</button>
+</div>
+<button (click)="register()">Register</button><button (click)="signIn()">signIn</button>
